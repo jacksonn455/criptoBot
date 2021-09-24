@@ -1,0 +1,24 @@
+{
+  "name": "casadocodido",
+  "version": "1.0.0",
+  "description": "",
+  "main": "produtos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "dotenv-extended": "^2.9.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "pending-promise-recycler": "^0.2.3",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9",
+    "save": "^2.4.0",
+    "util": "^0.12.4"
+  }
+}

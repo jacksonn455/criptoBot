@@ -1,0 +1,46 @@
+#robo-container {
+  background-color: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  padding: 20px 30px;
+  margin-top: 10vh;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.app {
+  background: #f1f1f1;
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  grid-template-areas: "cabecalho" "conteudo" "rodape";
+  grid-template-columns: auto;
+  grid-template-rows: 50px auto auto;
+}
+
+.cabecalho {
+  grid-area: cabecalho;
+  display: flex;
+  align-items: center;
+  padding: 0 2rem;
+  background: #fdfdfd;
+  color: #333333;
+}
+
+.carteira {
+margin-top: 10px;
+}
+
+.conteudo {
+  grid-area: conteudo;
+  padding: 0 2rem;
+}
+
+.rodape {
+  background: #fdfdfd;
+  color: #333333;
+  font-size: .8rem;
+  grid-area: rodape;
+  padding: 1rem;
+  text-align: center;
+}
