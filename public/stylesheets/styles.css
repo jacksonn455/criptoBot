@@ -9,6 +9,15 @@
   text-align: center;
 }
 
+.navbar {
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
 .app {
   background: #f1f1f1;
   display: grid;
@@ -16,6 +25,14 @@
   grid-template-areas: "cabecalho" "conteudo" "rodape";
   grid-template-columns: auto;
   grid-template-rows: 50px auto auto;
+}
+
+footer {
+  background: #333333;
+  color: #FFF;
+  padding: 20px;
+  margin-top: 0;
+  text-align: center;
 }
 
 .cabecalho {

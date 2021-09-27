@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>Cripto Bot</title>
     <link rel="icon" href="../../public/favicon.ico" type="image/x-icon">
     <link href="../../public/stylesheets/normalize.css" rel="stylesheet">
@@ -11,41 +12,49 @@
     <link href="../../public/stylesheets/menu.css" rel="stylesheet">
     <link href="../../public/stylesheets/responsivo.css" rel="stylesheet">
     <link href="../../public/stylesheets/google-fonts.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 </head>
-  </head>
-  <body class="app">
-    <header class="cabecalho">
-      <nav class="menu">
-          <ul class="menu__lista">
-              <li class="menu__item">
-                  <a class="menu__link ativo" href="#">
-                      <i class="fas fa-wallet"></i> Carteira
-                  </a>
-                  <a class="menu__link" href="#">
-                      <i class="fas fa-coins"></i> Moedas
-                  </a>
-                  <a class="menu__link" href="#">
-                      <i class="fas fa-robot"></i> Bot
-                  </a>
-              </li>
-          </ul>
-      </nav>
-  </header>
-    <main role="main">
-      <section id="trade" class="container">
-        <div id="robo-container">
-          <img class="populares__card___imagem" src="../../public/images/carteira-e-desenho-animado-do-dinheiro_138676-2086.jpg">
-          <br>
-          <table class="carteira">
-            <tr>
-              <td class="populares__card___titulo">R$:</td>
-              <td class="populares__card___titulo"><%= value %></td>
-            </tr>
-          </table>
-          </div>
-          </section>
 
-          <section class="populares">
+<body class="app">
+
+    <header class="container">
+      <nav class="menu navbar fixed-top navbar-light bg-light">
+        <ul class="menu__lista">
+            <li class="menu__item">
+                <a class="menu__link ativo" href="#carteira">
+                    <i class="fas fa-wallet"></i> Carteira
+                </a>
+                <a class="menu__link" href="#moedas">
+                    <i class="fas fa-coins"></i> Moedas
+                </a>
+                <a class="menu__link" href="#bot">
+                    <i class="fas fa-robot"></i> Bot
+                </a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    
+    <main role="main">
+        <section id="carteira" class="container">
+            <div id="robo-container">
+                <img class="populares__card___imagem"
+                    src="../../public/images/carteira-e-desenho-animado-do-dinheiro_138676-2086.jpg">
+                <br>
+                <table class="carteira">
+                    <tr>
+                        <td class="populares__card___titulo">R$:</td>
+                        <td class="populares__card___titulo">
+                            <%= value %>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section id="moedas" class="populares">
             <div class="populares__itens">
                 <div class="populares__conteudo">
                     <div class="populares__card">
@@ -175,11 +184,10 @@
                 </div>
             </div>
         </section>
-          </main>
-          <footer class="rodape">Copyright© 2021 - Jackson Felipe Magnabosco - Todos os direitos reservados.</footer>
-          
-          <script src="../public/javascripts/fontawesome.all.min.js"></script>
-          <script src="../public/javascripts/api.js"></script>
-          <script src="../public/javascripts/index.js"></script>
-  </body>
+    </main>
+    <script src="../public/javascripts/fontawesome.all.min.js"></script>
+    <script src="../public/javascripts/api.js"></script>
+    <script src="../public/javascripts/index.js"></script>
+</body>
+
 </html>
