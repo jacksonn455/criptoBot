@@ -1,6 +1,7 @@
 Robô trader da Binance
 ===============================================
 
+- Ver saldo das criptomoedas da conta.
 - Implementação de um robo para a compra e venda de cripto moeda.
 - Foi usado .env com uma lista de variáveis de ambiente que contem dados sensiveis e não podem estar no código
 - Como instalar o projeto baixado: npm install
